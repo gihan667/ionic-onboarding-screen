@@ -24,3 +24,40 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+    font-family: 'SF UI Display Light';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./assets/fonts/sf-ui-display-thin-58646e9b26e8b.otf');
+}
+
+@font-face {
+    font-family: 'SF UI Display Semibold';
+    font-style: normal;
+    font-weight: bold;
+    src: url('./assets/fonts/sf-ui-display-semibold-58646eddcae92.otf');
+}
+
+* {
+    font-family: 'SF UI Display Light';
+}
+
+.swiper-pagination {
+    width: 50% !important;
+    left: 25% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+}
+
+.swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 2px solid var(--bullet-background-active);
+}

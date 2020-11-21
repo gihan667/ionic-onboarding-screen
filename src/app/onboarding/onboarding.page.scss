@@ -1,0 +1,28 @@
+ion-slides {
+    height: 100%;
+}
+
+ion-slide {
+    display: block;
+}
+
+ion-slide img {
+    padding: 15%;
+}
+
+.slider-text {
+    padding-top: 20%;
+}
+
+.slider-text h2 {
+    font-family: 'SF UI Display Semibold';
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
